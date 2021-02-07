@@ -1,0 +1,119 @@
+.picture{
+    background-image:url("../arquivos-cliente/fotos/retro-3.jpg");
+   
+
+}
+.section-portfolio{
+    margin-top:180px;
+    margin-bottom:0;
+}
+.portfolio-quote{
+    font-family: georgia;
+    font-style: italic;
+    font-size: 18px;
+    
+    
+}
+.portfolio-quote h4{
+    font-family: arial;
+    font-size:18px;
+    letter-spacing: normal;
+    text-align:right;
+}
+.each-quote{
+    max-width:500px;
+    min-width: 280px;
+    text-align: center;
+    position:absolute;
+    padding:20px;
+    left:50%;
+    transform:translatex(-50%);
+    opacity: 0;
+    transition:opacity 1s;
+    
+}
+.visible{
+    padding:20px;
+    opacity:1;
+}
+
+#portfolio{
+    height:700px;
+    
+    
+}
+.img-container{
+    width:95vw;
+    max-width:940px; 
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.imagens{
+    width:95vw;
+    max-width:940px;
+    position:absolute;
+    opacity:1;    
+    transition:opacity 2s;
+}
+
+.desativado{
+    opacity:0;
+    transition:opacity 2s;
+}
+
+.bolinhas{
+    margin:15px;
+    text-align:center;
+    
+}
+.bolinha{
+    height:14px;
+    width:14px;
+    background-color:rgb(54, 54, 54);
+    border-radius: 100%;
+    display:inline-block;  
+}
+.pintada{
+    background-color: #fec63e;
+}
+
+@media screen and (max-width:1024px){
+}
+@media screen and (max-width:768px){
+    .section-portfolio{
+        margin-top:220px;
+        
+    }
+    #portfolio{
+        height:560px;
+    }
+
+}
+@media screen and (max-width:767px){
+    .img-container{
+        display: flex;
+        flex-direction: column;
+        margin-top:30px;
+    }
+    .image{
+        margin:auto;
+    }
+    .imagens{
+        margin-bottom:0;
+        
+    }
+    
+    #portfolio{
+        
+        padding-bottom:0;
+        margin-bottom:0;
+        height: 560px;
+    }
+    .section-portfolio{
+        border:2px solid red;
+        height:fit-content;
+        padding-bottom:0;
+    }
+}
+

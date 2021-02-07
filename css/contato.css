@@ -1,0 +1,48 @@
+.picture{
+    
+    background-image: url("../arquivos-cliente/fotos/esporte-2.jpg");
+}
+
+form{
+    color:black;
+}
+form input, form textarea{
+    color:black;
+    background-color:white;
+}
+.btn{
+    margin-left:0;
+}
+#orçamento-formulario{
+    color:black;
+}
+#orçamento-dados h3{
+    color:#fec63e;
+    text-transform: uppercase;
+}
+#orçamento-dados ul{
+    color:black;
+}
+.info h3{
+    font-size: 18px;
+}
+.icones-redes{
+    display:flex;
+    justify-content: space-between;
+    width:200px;
+}
+.icones-redes img:hover{
+    border-color:black;
+}
+
+.map{
+    text-align:center;
+    margin:50px auto;
+    width: 70vw;
+    
+}
+@media screen and (max-width:767px){
+    .picture{
+        margin-top:170px;
+    }
+}

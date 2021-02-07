@@ -1,0 +1,57 @@
+.picture{
+    background-image: url("../arquivos-cliente/fotos/esporte-2.jpg");
+   
+
+}
+.container-article{
+    display: flex;
+    margin-bottom:40px;
+    
+}
+.container-img img{
+    width:100%;
+}
+.container-conteudo .line{
+    margin:10px 0 0 0;
+
+}
+.article-sobre{
+    width:95vw;
+    max-width:940px;
+    margin:auto;
+    padding:40px 0 0 0;
+    
+}
+.article-sobre .container-conteudo{
+    font-family: arial;
+    font-size: 18px;
+    text-align:left;
+    line-height: 1.5em;
+    max-width:550px;
+    min-width:270px;
+
+}
+.container-article .container-conteudo:first-child{
+    max-width:550px;
+    min-width: 300px;
+    margin-right:40px;
+}
+
+.container-conteudo h2{
+    text-align: left;
+    font-size:24px;
+}
+.container-conteudo ul{
+    padding:0;
+}
+
+
+@media screen and (max-width:767px){
+    .container-article{
+        width:300px;
+        display: flex;
+        flex-direction: column;
+        margin:20px auto 40px ;
+
+    }
+}
