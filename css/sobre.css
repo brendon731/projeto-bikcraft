@@ -1,5 +1,8 @@
 .picture{
     background-image: url("../arquivos-cliente/fotos/esporte-2.jpg");
+    
+    background-repeat: no-repeat;  
+    background-size: cover;  
    
 
 }

@@ -1,6 +1,8 @@
 .picture{
     background-image:url("../arquivos-cliente/fotos/retro-3.jpg");
    
+    background-repeat: no-repeat;  
+    background-size: cover;  
 
 }
 .section-portfolio{

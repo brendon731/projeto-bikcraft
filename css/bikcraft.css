@@ -270,10 +270,9 @@ h2, h3{
 #quote{
     background-image: url("../arquivos-cliente/fotos/footer-img.jpg");
     background-position: center;
-
-
+    background-repeat: no-repeat;  
+    background-size: cover;  
 }
-
 #quote .frase{
     padding-top:50px;
 }
