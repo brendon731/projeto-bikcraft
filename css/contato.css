@@ -39,7 +39,11 @@ form input, form textarea{
 .map{
     text-align:center;
     margin:50px auto;
-    width: 70vw;
+    width: 100vw;
+    max-width:940px;
+    min-width:300px;
+    padding:0 10px;
+    box-sizing:border-box;
     
 }
 @media screen and (max-width:767px){
