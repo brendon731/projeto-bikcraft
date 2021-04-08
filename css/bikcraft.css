@@ -50,11 +50,13 @@ a{
 }
 #header-photo{
     background-image: url("../arquivos-cliente/fotos/mesa-trabalho.jpg");
-    height:393px;
+    height:fit-content;
+
     background-position: right;
     background-repeat: no-repeat;  
     background-size: cover;  
     padding-top:80px;
+    padding-bottom:20px;
     
 }
 .line{
@@ -81,18 +83,16 @@ a{
 }
 .frase h1{
     font-size:48px;
-
 }
 .frase p{
     max-width:300px;
     margin:auto;
     font-size:14px;
     font-family:georgia;
-    
 }
 
 #produtos{
-    width:95vw;
+    width:100vw;
     max-width:940px;
     margin:auto;
     text-align:center;
@@ -163,7 +163,7 @@ a{
     
 }
 #portfolio{
-    width:95vw;
+    width:100vw;
     max-width:940px;
     margin:auto;
     
@@ -289,7 +289,7 @@ footer .informaçoes{
     display:flex;
     justify-content: space-between;
     margin:auto;
-    width:95vw;
+    width:100%;
     max-width:940px;
 
 }
@@ -346,7 +346,7 @@ footer p{
     background-color:#fec63e;
 }
 #direitos p{
-    width:95vw;
+    width:100vw;
     max-width:940px;
     margin:auto;
     padding:20px 0;
@@ -368,8 +368,10 @@ footer p{
     .icones-redes img{
         width: 25px;
     }
+ 
 }
 @media screen and (max-width:767px){
+   
     .logo-linha{
         margin:auto;
         background-image: none;
@@ -399,6 +401,9 @@ footer p{
 }
 
 @media screen and (max-width: 767px) {
+    .info:nth-child(2){
+        padding:0;
+    }
     header{
         padding:0;
         position:absolute;
@@ -410,7 +415,6 @@ footer p{
     #content{
         margin:10px auto;
         padding:0;
-        max-width:320px;
         
     }
     #content a img{
@@ -475,9 +479,6 @@ footer p{
     }
 }
 @media screen and (max-width:320px){
-    .info:nth-child(2){
-        padding:0;
-    }
 }
 
     
