@@ -56,7 +56,8 @@ a{
     background-repeat: no-repeat;  
     background-size: cover;  
     padding-top:80px;
-    padding-bottom:20px;
+    padding-bottom:40px;
+    margin-bottom:50px;
     
 }
 .line{
@@ -64,7 +65,7 @@ a{
     background-color:white;
     width:60px;
     margin:auto;
-    margin:10px auto 15px ;
+    margin:10px auto 10px ;
 }
 .line-2{
     background-color:black;
@@ -76,7 +77,7 @@ a{
     margin:10px auto 5px;
 }
 .frase{
-    padding:80px 0 50px 0;
+    padding:60px 0 30px 0;
     text-align:center;
     color:white;
     margin-bottom:-10px;
@@ -97,10 +98,7 @@ a{
     margin:auto;
     text-align:center;
 }
-#produtos h2{
-    margin:40px 0 10px 0;
-    
-}
+
 .container{
     display:flex;
     flex-wrap: wrap;
@@ -478,9 +476,6 @@ footer p{
         
     }
 }
-@media screen and (max-width:320px){
-}
-
     
 [data-anime]{
     opacity:0;
