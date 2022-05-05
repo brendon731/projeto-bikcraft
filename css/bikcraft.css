@@ -21,9 +21,8 @@ header{
     padding:10px 0 8px 0; 
 }
 #content ul {
-    display:inline-block;
-    float:right;
     padding:10px 0 8px 0;
+    float:right;
     
 }
 ul li{
@@ -34,13 +33,12 @@ ul li{
     display:inline-block;
     margin-left:20px;
     text-transform: uppercase;
-}
-#content ul  li{
     font-weight: bold;
     font-size: 14px;
     letter-spacing: 2px;
     transition:.5s;
 }
+
 a{
     text-decoration:none;
     color:black;
@@ -50,7 +48,7 @@ a{
 }
 #header-photo{
     background-image: url("../arquivos-cliente/fotos/mesa-trabalho.jpg");
-    height:fit-content;
+    width:100%;
 
     background-position: right;
     background-repeat: no-repeat;  
@@ -353,6 +351,7 @@ footer p{
 }
 
 @media screen and (max-width:1024px){
+    
     .info .icones-redes{
         width:fit-content;
     }
@@ -374,9 +373,7 @@ footer p{
         margin:auto;
         background-image: none;
     }
-    #header-photo{
-        padding-top:170px;
-    }
+    
     .frase h1{
         font-size: 36px;
     }
@@ -386,16 +383,6 @@ footer p{
         width:320px;
         
     }
-    .imagens{
-        margin-top:20px;
-    }
-    .container .card{
-        margin:20px auto;
-    }
-    .info{
-        max-width:300px;
-    }
-    
 }
 
 @media screen and (max-width: 767px) {
@@ -409,6 +396,8 @@ footer p{
     }
     #header-photo{
         position:relative;
+        padding-top:170px;
+
     }
     #content{
         margin:10px auto;
@@ -425,7 +414,8 @@ footer p{
         flex-direction: row;
         flex-wrap: wrap;
         justify-content:center;
-        margin:0;
+        margin:auto;
+        float:none;
         
     }
     #content ul li{
@@ -435,21 +425,20 @@ footer p{
         text-align: center;
         margin:5px;
     }
-    #header-photo{
-        width:100vw;
-    }
+    
     .container{
         margin:auto;
     }
     .container .card{
         width:300px;
-          
+        margin:20px auto;
+  
     }
-
     .imagens{
         width:300px;
         margin:auto;
-  
+        margin-top:20px;
+
     }
     .img-container{
         flex-wrap: wrap;
@@ -471,6 +460,8 @@ footer p{
         flex-direction: column;     
     }
     footer .informaçoes .info{
+        max-width:300px;
+
         width:320px;
         margin:auto;
         
